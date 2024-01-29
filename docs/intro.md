@@ -19,8 +19,7 @@ Hemos elaborado un script para uso en instancias Linux con Ubuntu 18 o superior.
 - Tener acceso a su servidor, vps, máquina virtual o local via SSH, en las instalaciones que realizamos para AWS o Google Cloud, hacemos entrega del usuario, la IP del servidor y la clave ssh que puede ser un archivo .ppk o .pem, recuerde almacenarlas en su equipo local.
 
 - Tener instalada una versión de SSH en su máquina para conectarse de manera remota. Puede utilizar herramientas como Putty, FileZilla o una consola terminal. Para obtener más información sobre el acceso SSH, consulte los siguientes manuales:
-  - [Guía para acceder con Putty (gestión de servidor)](enlace_putty)
-  - [Guía para acceder con Winscp (gestión de archivos con aplicación de escritorio)](enlace_winscp)
+  
 
 - Si es posible configurar su dominio apuntando a su instancia para que al finalizar la instalación se encuentre disponible el aplicativo. Edite los récords A y CNAME donde A debe contener su IP y CNAME el valor * (asterisco) para que se tomen los subdominios registrados por la herramienta.
 
